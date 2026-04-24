@@ -60,6 +60,8 @@ task_context:
     creates_new_entities: true
     involves_data_operations: false
     ui_heavy: false
+  risk_level: low
+  scope_expanded: false
   research_reference:
     path: .maister/tasks/research/2026-04-24-digital-marketing-strategy-course
     research_question: |
