@@ -1,0 +1,87 @@
+orchestrator:
+  started_phase: phase-1
+  completed_phases: []
+  failed_phases: []
+  auto_fix_attempts:
+    phase-1: 0
+    phase-2: 0
+    phase-3: 0
+    phase-4: 0
+    phase-5: 0
+    phase-6: 0
+  options:
+    brainstorming_enabled: null
+    design_enabled: null
+  created: "2026-04-24T00:00:00Z"
+  updated: "2026-04-24T00:00:00Z"
+  task_path: .maister/tasks/research/2026-04-24-digital-marketing-strategy-course
+  task_ids:
+    phase-1: "1"
+    phase-2: "2"
+    phase-3: "3"
+    phase-4: "4"
+    phase-5: "5"
+    phase-6: "6"
+
+task:
+  title: "Digital Marketing Strategy Course — 8h Workshop Day"
+  description: |
+    Prepare a full-day (8h) lecture-workshop course on Digital Marketing Strategy and Execution
+    for postgraduate e-marketing students. Must cover: SOSTAC model, RACE model, Digital Strategy
+    concepts, Brand Strategy, Customer Value Proposition. Include market data, case studies,
+    concrete digital examples. Deliverables: Keynote presentation with presenter notes,
+    Canva Whiteboard exercises with facilitator guides.
+  status: in_progress
+  tags: ["education", "digital-marketing", "course-design", "SOSTAC", "RACE"]
+  priority: high
+
+research_context:
+  research_type: mixed
+  research_question: |
+    How to design and prepare a comprehensive 8-hour lecture-workshop day on Digital Marketing
+    Strategy and Execution for postgraduate e-marketing students, covering SOSTAC, RACE,
+    Digital Strategy, Brand Strategy, and Customer Value Proposition — with market data,
+    case studies, Keynote presentation (with presenter notes), and Canva Whiteboard exercises?
+  scope:
+    included:
+      - SOSTAC model theory and application
+      - RACE model theory and application
+      - Digital strategy definition and frameworks
+      - Brand strategy fundamentals
+      - Customer Value Proposition
+      - Market data and statistics (current)
+      - Real-world case studies from digital brands
+      - Workshop exercise design for Canva Whiteboard
+      - Keynote presentation structure and flow
+      - Presenter notes and facilitation guidance
+      - 8-hour timing and session structure
+    excluded:
+      - Technical implementation (coding, dev)
+      - Paid media buying mechanics (only strategic overview)
+      - SEO/SEM deep dives
+    constraints:
+      - Language: Polish (course is in Polish)
+      - Duration: exactly 8 hours
+      - Format: lecture + workshop hybrid
+      - Tools: Keynote + Canva Whiteboard
+  methodology: []
+  sources: []
+  confidence_level: null
+  gathering_strategy:
+    categories: []
+    count: 0
+    source: null
+  phase_summaries:
+    phase-1:
+      summary: null
+      steps_completed: []
+    phase-3:
+      summary: null
+    phase-4:
+      summary: null
+      decision_areas: []
+      deferred_ideas: []
+    phase-5:
+      summary: null
+      architecture_style: null
+      decisions_count: 0

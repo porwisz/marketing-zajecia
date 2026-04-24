@@ -1,0 +1,106 @@
+orchestrator:
+  started_phase: phase-1
+  completed_phases: []
+  failed_phases: []
+  auto_fix_attempts:
+    phase-1: 0
+    phase-2: 0
+    phase-3: 0
+    phase-4: 0
+    phase-5: 0
+    phase-6: 0
+    phase-7: 0
+    phase-8: 0
+    phase-9: 0
+    phase-10: 0
+    phase-11: 0
+    phase-14: 0
+  options:
+    spec_audit_enabled: true
+    skip_test_suite: true
+    e2e_enabled: false
+    user_docs_enabled: false
+    code_review_enabled: true
+    pragmatic_review_enabled: true
+    reality_check_enabled: true
+    production_check_enabled: false
+  created: "2026-04-24T00:00:00Z"
+  updated: "2026-04-24T00:00:00Z"
+  task_path: .maister/tasks/development/2026-04-24-digital-marketing-strategy-course
+  task_ids:
+    phase-1: "1"
+    phase-2: "2"
+    phase-5: "3"
+    phase-6: "4"
+    phase-7: "5"
+    phase-8: "6"
+    phase-10-11: "7"
+    phase-14: "8"
+
+task:
+  title: "Digital Marketing Strategy Course — 8h Workshop Day Materials"
+  description: |
+    Create full-day (8h) course materials on Digital Marketing Strategy and Execution
+    for postgraduate e-marketing students. Deliverables: Keynote presentation structure
+    with slide-by-slide content and presenter notes, Canva Whiteboard exercise templates
+    with facilitator guides. Covers: SOSTAC, RACE, Digital Strategy, Brand Strategy, CVP.
+    Language: Polish. Format: lecture + workshop hybrid.
+  status: in_progress
+  tags: ["education", "digital-marketing", "course-design", "SOSTAC", "RACE", "Polish"]
+  priority: high
+
+task_context:
+  risk_level: low
+  clarifications_resolved: null
+  scope_expanded: null
+  architecture_decision: null
+  task_characteristics:
+    has_reproducible_defect: false
+    modifies_existing_code: false
+    creates_new_entities: true
+    involves_data_operations: false
+    ui_heavy: false
+  research_reference:
+    path: .maister/tasks/research/2026-04-24-digital-marketing-strategy-course
+    research_question: |
+      How to design and prepare a comprehensive 8-hour lecture-workshop day on Digital Marketing
+      Strategy and Execution for postgraduate e-marketing students, covering SOSTAC, RACE,
+      Digital Strategy, Brand Strategy, and Customer Value Proposition — with current market data,
+      case studies, a Keynote presentation with presenter notes, and Canva Whiteboard exercises?
+    research_type: mixed
+    confidence_level: high
+  phase_summaries:
+    research:
+      summary: |
+        Comprehensive research complete. 5 research streams integrated: framework theory (SOSTAC/RACE/CVP/Brand Strategy),
+        Polish & global market data (DataReportal 2025, Gemius/PBI), 5 international case studies (Nike, Spotify, IKEA,
+        Duolingo, Zalando), 5 Polish case studies (Allegro, Żabka, InPost, CD Projekt Red, mBank), and course design
+        best practices (Knowles andragogy, 70:20:10 model). 8-hour agenda, 4 workshop exercises, Keynote structure,
+        and presenter notes guidance are all detailed in the report.
+      key_findings:
+        - "8-hour agenda: 09:00-17:00, 4 lecture blocks (~2h20m), 4 Canva workshops (~2h40m), breaks/lunch (~1h30m)"
+        - "Framework hierarchy: Brand Strategy → Digital Strategy → Digital Marketing Strategy → SOSTAC → RACE"
+        - "SOSTAC taught before Brand/CVP for pedagogical reasons (concrete before abstract)"
+        - "All 4 exercises on single brand per group creates integrated learning artifact"
+        - "Polish case studies: Allegro, Żabka, InPost, CD Projekt Red, mBank — all with detailed metrics"
+        - "70:20:10 ratio: 70% active learning, 20% peer, 10% instruction (evidence-based)"
+        - "Course is in Polish; research report in English"
+      recommended_approach: |
+        Create: (1) Keynote slide-by-slide structure with Polish content and presenter notes for each module,
+        (2) 4 Canva Whiteboard exercise templates with facilitator guides (SOSTAC Audit, RACE Journey Map,
+        Value Proposition Canvas, Budget/Channel Matrix), (3) supporting facilitator materials.
+    codebase_analysis:
+      key_files: []
+      primary_language: "Markdown/content"
+      summary: "No existing course materials in project. Starting from scratch using research report as foundation."
+    clarifications: []
+    gap_analysis:
+      integration_points: []
+      summary: null
+
+verification_context:
+  last_status: null
+  issues_found: []
+  fixes_applied: []
+  decisions_made: []
+  reverify_count: 0
